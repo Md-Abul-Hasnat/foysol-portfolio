@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
 export default App;
+
+// site-1 : http://nayemislam.rf.gd/
+
+// site-2 : http://abdullahnahid.com/?fbclid=IwAR3LHAW8Jx9azSLLOUJQqa-Pcnm8N6mY5c8j1bB5CIphC2TZRz6aYEBOEUU
+
+// site-3 : https://abrahrahman.com/index.html

@@ -1,0 +1,118 @@
+.special-section {
+  padding-top: 120px;
+  background-color: var(--bg-white);
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}
+
+.special-wrapper {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 35px;
+}
+
+.special-wrapper article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px rgb(201, 199, 199);
+  transition: 0.5s;
+  background-color: whitesmoke;
+}
+
+.special-wrapper article:hover {
+  box-shadow: 0px 0px 20px gray;
+}
+
+.special-wrapper article img {
+  height: 120px;
+}
+
+.special-wrapper article h3 {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+.special-wrapper article p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.special-wrapper article a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.special-wrapper article a:hover {
+  background-color: var(--orange);
+  border-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .special-wrapper {
+    gap: 25px;
+  }
+  .special-wrapper article h3 {
+    font-size: 1.1rem;
+    margin: 15px 0;
+  }
+
+  .special-wrapper article p {
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .special-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .special-wrapper article h3 {
+    font-size: 1.3rem;
+    margin: 12px 0;
+  }
+
+  .special-wrapper article p {
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .special-wrapper article h3 {
+    font-size: 1.1rem;
+  }
+
+  .special-wrapper article p {
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .sub-heading {
+    padding: 0 5px;
+    font-size: 0.9rem;
+  }
+}

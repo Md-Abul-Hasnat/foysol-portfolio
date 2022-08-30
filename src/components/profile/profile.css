@@ -1,0 +1,138 @@
+.profile {
+  width: 100%;
+  height: fit-content;
+  padding-top: 100px;
+  text-align: center;
+  background-color: var(--bg-white);
+}
+
+.profile .profile-wrapper {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 20% 1fr;
+  gap: 80px;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.profile-wrapper h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: var(--text-color);
+}
+
+.profile-wrapper p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.profile-right h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.profile-right p {
+  margin-bottom: 10px;
+}
+
+.profile-left .socials {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.socials .fa-brands {
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  padding: 8px 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 1.4rem;
+  transition: 0.5s;
+}
+
+.socials .fa-facebook-f {
+  padding: 9px 13px;
+}
+
+.socials .fa-instagram {
+  padding: 9px 12px;
+}
+
+.socials .fa-brands:hover {
+  background-color: var(--orange);
+}
+
+.profile-wrapper .profile-left {
+  width: 100%;
+}
+
+.profile-center img {
+  width: 100%;
+  margin-top: 30px;
+  background-color: var(--orange);
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile .profile-wrapper {
+    width: 90%;
+    grid-template-columns: 1fr 30% 1fr;
+    gap: 40px;
+  }
+  .profile-wrapper p {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .profile .profile-wrapper {
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profile-center img {
+    margin-top: 0px;
+  }
+  .profile-right h4 {
+    margin-bottom: 10px;
+  }
+
+  .profile-right p {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile .profile-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+  }
+
+  .profile-wrapper h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .profile-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-center img {
+    width: 80%;
+  }
+
+  .profile-left .socials {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .profile-wrapper h3 {
+    font-size: 1.3rem;
+  }
+}

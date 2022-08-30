@@ -1,0 +1,73 @@
+.price-card {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  border: 1px solid lightgray;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(156, 156, 156);
+}
+
+.price-card > h1 {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.price-card > h1 span {
+  font-size: 2rem;
+}
+
+.price-card > p {
+  padding: 17px 0;
+  font-size: 1rem;
+  color: rgb(105, 105, 105);
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.price-card .cetagory {
+  background-color: var(--orange);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+  transition: 0.5s;
+}
+
+.price-card .price-btn {
+  border: none;
+  background-color: var(--orange);
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  padding: 6px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.price-card:hover {
+  box-shadow: 0px 0px 15px rgb(156, 156, 156);
+  cursor: default;
+  background-color: var(--orange);
+}
+
+.price-card:hover.price-card .cetagory {
+  background-color: white;
+  font-weight: 600;
+  color: black;
+}
+
+.price-card:hover.price-card .price-btn {
+  background-color: white;
+  color: black;
+}
+
+.price-card:hover p {
+  color: black;
+  font-weight: 500;
+}

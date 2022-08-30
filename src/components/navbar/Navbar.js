@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link className="logo" to="/">
-        <h1>Foysal</h1>
+        <h1>Foysol</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>

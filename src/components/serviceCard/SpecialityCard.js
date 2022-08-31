@@ -1,6 +1,6 @@
 import React from "react";
 
-const SpecialityCard = (props) => {
+const ServiceCard = (props) => {
   return (
     <article>
       <img src={props.data.img} alt="social media marketing" />
@@ -11,4 +11,4 @@ const SpecialityCard = (props) => {
   );
 };
 
-export default SpecialityCard;
+export default ServiceCard;

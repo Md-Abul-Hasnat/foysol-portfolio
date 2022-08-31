@@ -27,12 +27,14 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 9px rgb(201, 199, 199);
+  border-bottom: 5px solid transparent;
   transition: 0.5s;
   background-color: whitesmoke;
 }
 
 .special-wrapper article:hover {
   box-shadow: 0px 0px 20px gray;
+  border-bottom: 5px solid var(--orange);
 }
 
 .special-wrapper article img {

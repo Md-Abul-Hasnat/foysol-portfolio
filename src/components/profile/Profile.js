@@ -34,9 +34,9 @@ const Profile = () => {
         <div class="profile-right">
           <h3>Details</h3>
           <h4>Name :</h4>
-          <p>Jack Norton</p>
+          <p>Foysol Ahmed</p>
           <h4>Age :</h4>
-          <p>33 Years</p>
+          <p>20 Years</p>
           <h4>Location :</h4>
           <p>'s-Hertogenbosch, The Netherlands, Earth</p>
         </div>

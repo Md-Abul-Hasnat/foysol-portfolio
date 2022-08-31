@@ -33,7 +33,7 @@
 
 .price-card .cetagory {
   background-color: var(--orange);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: black;
   transition: 0.5s;
@@ -70,4 +70,9 @@
 .price-card:hover p {
   color: black;
   font-weight: 500;
+}
+
+.price-card .price-btn:hover.price-btn {
+  background-color: black;
+  color: white;
 }

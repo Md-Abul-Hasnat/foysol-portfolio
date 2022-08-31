@@ -4,7 +4,7 @@ import seo from "../../images/seo.png";
 import yt from "../../images/yt-monitization.png";
 import sm from "../../images/social-marketing.jpg";
 import pr from "../../images/page-ranking.png";
-import SpecialityCard from "../specialityCard/SpecialityCard";
+import SpecialityCard from "../serviceCard/SpecialityCard";
 
 const Speciality = () => {
   const specialityCardData = [

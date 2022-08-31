@@ -15,14 +15,14 @@ const HomeHero = () => {
           <div class="home-hero-right">
             <h1>HELLO !!</h1>
             <h2>
-              I'm Foysal Ahmed, <br />a digital marketer.
+              I'm Foysol Ahmed, <br />a digital marketer.
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium amet eos, molestiae earum corporis ullam voluptatem
               nostrum possimus ad quos!
             </p>
-            <a href="#"> Contact Me </a>
+            <a href="#">Contact Me </a>
           </div>
         </div>
       </section>

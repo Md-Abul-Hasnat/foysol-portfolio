@@ -5,6 +5,7 @@ import review2 from "../../images/review2.png";
 import review3 from "../../images/review3.png";
 import review4 from "../../images/review4.jpg";
 import review5 from "../../images/review5.jpg";
+import review6 from "../../images/foysol6.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -50,9 +51,9 @@ const Review = () => {
     },
     {
       id: 6,
-      img: review3,
-      name: "Abul Bashar",
-      country: "India",
+      img: review6,
+      name: "Shakib Ahmed",
+      country: "Pakistan",
       text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus totam libero commodi placeat nesciunt unde. Hic, iusto libero? Quisquam deleniti nihil esse est natus. Velit quia, maxime minus eum aliquid deserunt error quaerat, eaque similique ipsum assumenda exercitationem dolor!`,
     },
   ];
@@ -72,20 +73,25 @@ const Review = () => {
           650: {
             slidesPerView: 2,
           },
+          1000: {
+            slidesPerView: 3,
+          },
         }}
         spaceBetween={30}
         centeredSlides={true}
         pagination={{
           clickable: true,
         }}
-        autoplay={true}
+        autoplay={{ delay: 5000 }}
         modules={[Pagination, Autoplay]}
         className="review-wrapper"
       >
         {reviewData.map((data) => {
           return (
             <SwiperSlide className="review-card">
-              <img src={data.img} alt="client" />
+              <div className="client-img">
+                <img src={data.img} alt="client" />
+              </div>
               <h2> {data.name} </h2>
               <h3> {data.country} </h3>
               <i class="fa-solid fa-quote-left"></i>

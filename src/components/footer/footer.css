@@ -47,7 +47,7 @@
   background-color: rgb(43, 42, 42);
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   .footer-wrapper .footer-socials {
     display: flex;
     gap: 35px;

@@ -62,8 +62,8 @@ const Review = () => {
     <section className="review">
       <h1 className="heading"> Client's Review</h1>
       <h2 className="sub-heading">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, est rerum.
-        Exercitationem labore deserunt laudantium.
+        We know how important customer experience is for a busines and
+        therefore, we trive to make your company excel in this.
       </h2>
       <Swiper
         breakpoints={{

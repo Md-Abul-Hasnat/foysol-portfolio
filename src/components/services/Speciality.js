@@ -1,10 +1,10 @@
 import React from "react";
 import "./speciality.css";
+import SpecialityCard from "../serviceCard/SpecialityCard";
 import seo from "../../images/seo.png";
 import yt from "../../images/yt-monitization.png";
 import sm from "../../images/social-marketing.jpg";
 import pr from "../../images/page-ranking.png";
-import SpecialityCard from "../serviceCard/SpecialityCard";
 
 const Speciality = () => {
   const specialityCardData = [
@@ -14,7 +14,6 @@ const Speciality = () => {
       text: `
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
             tenetur repellendus perspiciatis veniam cumque, accusamus architecto
-            doloremque vitae enim consequuntur veniam cumque, accusamus architecto
             doloremque vitae enim consequuntur?`,
     },
     {
@@ -23,7 +22,6 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
-              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
     {
@@ -32,7 +30,6 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
-              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
     {
@@ -41,7 +38,6 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
-              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
   ];

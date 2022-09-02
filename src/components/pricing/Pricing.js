@@ -8,8 +8,9 @@ const Pricing = () => {
     <section id="pricing" className="price">
       <h1 className="heading"> PRICING TABLES</h1>
       <h2 className="sub-heading">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et
-        aspernatur sit distinctio .
+        We take a consultative approach to every client engagement and find
+        actionable solutions that will help your organization achieve the best
+        outcomes.
       </h2>
       <div className="price-main">
         {pricing.map((price) => (

@@ -91,12 +91,12 @@ form textarea {
   form label {
     font-size: 1rem;
   }
+  form textarea {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
-  form textarea {
-    height: 70px;
-  }
   form input[type="submit"] {
     padding: 8px 30px;
   }

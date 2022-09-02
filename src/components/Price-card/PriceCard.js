@@ -11,7 +11,6 @@ const PriceCard = (props) => {
     dataTransfer,
     bandwith,
     security,
-    btn,
   } = props.data;
   return (
     <section className="price-card">
@@ -24,9 +23,6 @@ const PriceCard = (props) => {
       <p> {dataTransfer} </p>
       <p> {bandwith} </p>
       <p> {security} </p> <br />
-      <Link className="price-btn" to="/">
-        {btn}
-      </Link>
     </section>
   );
 };

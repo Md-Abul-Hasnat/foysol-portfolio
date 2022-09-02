@@ -7,7 +7,6 @@ export const pricing = [
     dataTransfer: "Unlimited data transfer",
     bandwith: "50GB Bandwith",
     security: "Enhanced security",
-    btn: "View More",
   },
   {
     price: 500,
@@ -17,7 +16,6 @@ export const pricing = [
     dataTransfer: "Unlimited data transfer",
     bandwith: "50GB Bandwith",
     security: "Enhanced security",
-    btn: "View More",
   },
   {
     price: 800,
@@ -27,7 +25,6 @@ export const pricing = [
     dataTransfer: "Unlimited data transfer",
     bandwith: "50GB Bandwith",
     security: "Enhanced security",
-    btn: "View More",
   },
   {
     price: 999,
@@ -37,6 +34,5 @@ export const pricing = [
     dataTransfer: "Unlimited data transfer",
     bandwith: "50GB Bandwith",
     security: "Enhanced security",
-    btn: "View More",
   },
 ];

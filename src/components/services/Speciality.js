@@ -14,6 +14,7 @@ const Speciality = () => {
       text: `
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
             tenetur repellendus perspiciatis veniam cumque, accusamus architecto
+            doloremque vitae enim consequuntur veniam cumque, accusamus architecto
             doloremque vitae enim consequuntur?`,
     },
     {
@@ -22,6 +23,7 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
+              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
     {
@@ -30,6 +32,7 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
+              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
     {
@@ -38,6 +41,7 @@ const Speciality = () => {
       text: `
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
               tenetur repellendus perspiciatis veniam cumque, accusamus architecto
+              doloremque vitae enim consequuntur veniam cumque, accusamus architecto
               doloremque vitae enim consequuntur?`,
     },
   ];

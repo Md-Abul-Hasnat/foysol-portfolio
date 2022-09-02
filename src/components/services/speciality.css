@@ -48,24 +48,7 @@
 
 .special-wrapper article p {
   line-height: 1.6;
-  text-align: justify;
-}
-
-.special-wrapper article a {
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  background-color: transparent;
-  padding: 6px 12px;
-  border-radius: 5px;
-  display: block;
-  margin-top: 20px;
-  transition: 0.5s;
-}
-
-.special-wrapper article a:hover {
-  background-color: var(--orange);
-  border-color: transparent;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {

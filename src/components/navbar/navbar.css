@@ -39,6 +39,7 @@ nav li a {
   font-size: 1.2rem;
   font-weight: 500;
   display: block;
+  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
 
@@ -57,6 +58,7 @@ nav li a:hover::after {
 
 nav .fa-solid {
   display: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (max-width: 750px) {
@@ -84,6 +86,7 @@ nav .fa-solid {
     top: 0;
     right: -100%;
     text-align: center;
+    z-index: 100;
   }
 
   .nav-menu.active {

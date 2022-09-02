@@ -17,23 +17,23 @@ const Navbar = () => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="home" spy={true} smooth={true}>
+          <Link onClick={handleClick} to="home" spy={true} smooth={true}>
             Home
           </Link>
         </li>
 
         <li>
-          <Link to="services" spy={true} smooth={true}>
+          <Link onClick={handleClick} to="services" spy={true} smooth={true}>
             Services
           </Link>
         </li>
         <li>
-          <Link to="pricing" spy={true} smooth={true}>
+          <Link onClick={handleClick} to="pricing" spy={true} smooth={true}>
             Pricing
           </Link>
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true}>
+          <Link onClick={handleClick} to="contact" spy={true} smooth={true}>
             Contact
           </Link>
         </li>

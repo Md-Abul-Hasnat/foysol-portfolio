@@ -5,7 +5,7 @@ import foysolpassport from "../../images/foysol6.png";
 const Profile = () => {
   return (
     <section class="profile">
-      <h1 class="heading">PROFILE</h1>
+      <h1 class="heading">About ME</h1>
       <h2 class="sub-heading">I'm a creative multitasking digital marketer</h2>
       <div class="profile-wrapper">
         <div class="profile-left">

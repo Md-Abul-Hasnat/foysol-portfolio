@@ -5,7 +5,7 @@ import { pricing } from "../data";
 
 const Pricing = () => {
   return (
-    <section className="price">
+    <section id="pricing" className="price">
       <h1 className="heading"> PRICING TABLES</h1>
       <h2 className="sub-heading">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et

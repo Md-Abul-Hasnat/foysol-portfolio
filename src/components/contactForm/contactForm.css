@@ -1,0 +1,103 @@
+.contact-link {
+  padding-top: 120px;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--bg-white);
+  text-align: center;
+}
+
+.contact-wrapper {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: left;
+}
+
+.contact-wrapper form {
+  width: 100%;
+  padding: 20px 50px;
+  border-radius: 15px;
+  background-color: var(--orange);
+}
+
+form label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 7px;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+form input[type="submit"] {
+  width: fit-content;
+  background-color: white;
+  padding: 10px 35px;
+  border: 0.5px solid transparent;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(49, 175, 49);
+  color: white;
+  transition: 0.5s;
+}
+
+form textarea {
+  width: 100%;
+  height: 130px;
+  padding: 13px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  outline: none;
+  margin-bottom: 25px;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-wrapper {
+    width: 85%;
+  }
+  form textarea {
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-wrapper form {
+    padding: 30px;
+  }
+  form input {
+    padding: 14px 10px;
+    font-size: 0.9rem;
+  }
+  form label {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  form textarea {
+    height: 70px;
+  }
+  form input[type="submit"] {
+    padding: 8px 30px;
+  }
+}

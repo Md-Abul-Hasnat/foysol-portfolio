@@ -25,10 +25,7 @@ nav .logo h1 {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 5px;
-}
-
-.logo h1 span {
-  color: var(--orange);
+  cursor: pointer;
 }
 
 nav li {
@@ -42,6 +39,7 @@ nav li a {
   font-size: 1.2rem;
   font-weight: 500;
   display: block;
+  cursor: pointer;
 }
 
 nav li a::after {

@@ -7,7 +7,7 @@ const HomeHero = () => {
   return (
     <>
       <Navbar />
-      <section class="home-hero">
+      <section id="home" class="home-hero">
         <div class="home-hero-wrapper">
           <div class="home-hero-left">
             <img class="home-hero-img" src={foysol} alt="Foysal" />
@@ -15,7 +15,7 @@ const HomeHero = () => {
           <div class="home-hero-right">
             <h1>HELLO !!</h1>
             <h2>
-              I'm Foysol Ahmed, <br />a digital marketer.
+              I'm Foysol Ahmed, <br />A Digital Marketer.
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

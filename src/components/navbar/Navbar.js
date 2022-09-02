@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -12,21 +12,30 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Link className="logo" to="/">
+      <Link to="home" spy={true} smooth={true} className="logo">
         <h1>Foysol</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <Link to="home" spy={true} smooth={true}>
+            Home
+          </Link>
+        </li>
+
+        <li>
+          <Link to="services" spy={true} smooth={true}>
+            Services
+          </Link>
         </li>
         <li>
-          <NavLink to="/">Services</NavLink>
+          <Link to="pricing" spy={true} smooth={true}>
+            Pricing
+          </Link>
         </li>
         <li>
-          <NavLink to="/">Pricing</NavLink>
-        </li>
-        <li>
-          <NavLink to="/">Contact</NavLink>
+          <Link to="contact" spy={true} smooth={true}>
+            Contact
+          </Link>
         </li>
         <i onClick={handleClick} class="fa-solid fa-xmark"></i>
       </ul>

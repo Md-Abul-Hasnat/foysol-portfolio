@@ -43,7 +43,7 @@ const Speciality = () => {
   ];
 
   return (
-    <section class="special-section">
+    <section id="services" class="special-section">
       <h1 class="heading">My Services</h1>
       <h2 class="sub-heading">
         Want to boost your business growth ? <br />

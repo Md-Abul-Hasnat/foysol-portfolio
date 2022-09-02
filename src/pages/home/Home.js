@@ -1,5 +1,5 @@
 import React from "react";
-import ContactLink from "../../components/contactLink/ContactLink";
+import ContactForm from "../../components/contactForm/ContactForm";
 import Footer from "../../components/footer/Footer";
 import HomeHero from "../../components/homeHero/HomeHero";
 import Pricing from "../../components/pricing/Pricing";
@@ -15,7 +15,7 @@ const Home = () => {
       <Speciality />
       <Review />
       <Pricing />
-      <ContactLink />
+      <ContactForm />
       <Footer />
     </>
   );

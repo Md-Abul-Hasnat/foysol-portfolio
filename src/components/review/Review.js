@@ -60,7 +60,7 @@ const Review = () => {
 
   return (
     <section className="review">
-      <h1 className="heading">What Client's Say</h1>
+      <h1 className="heading"> Client's Review</h1>
       <h2 className="sub-heading">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, est rerum.
         Exercitationem labore deserunt laudantium.

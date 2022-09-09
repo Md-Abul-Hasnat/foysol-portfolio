@@ -8,7 +8,7 @@ const FAQs = () => {
     <section className="faqs">
       <h1 className="heading">FAQs</h1>
       <h2 className="sub-heading">
-        Some question's and answer's you might want to know.
+        Here are some question's and answer's you might want to know.
       </h2>
       <div className="faqs-wrapper">
         {faqsData.map((faqData) => (

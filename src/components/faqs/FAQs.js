@@ -8,8 +8,7 @@ const FAQs = () => {
     <section className="faqs">
       <h1 className="heading">FAQs</h1>
       <h2 className="sub-heading">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, vel.
-        Accusantium autem quisquam enim distinctio?
+        Some question's and answer's you might want to know.
       </h2>
       <div className="faqs-wrapper">
         {faqsData.map((faqData) => (

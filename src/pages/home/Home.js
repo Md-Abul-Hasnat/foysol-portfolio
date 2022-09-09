@@ -6,6 +6,7 @@ import Pricing from "../../components/pricing/Pricing";
 import Profile from "../../components/profile/Profile";
 import Review from "../../components/review/Review";
 import Speciality from "../../components/services/Speciality";
+import FAQs from "../../components/faqs/FAQs";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeHero />
       <Profile />
       <Speciality />
+      <FAQs />
       <Review />
       <Pricing />
       <ContactForm />
